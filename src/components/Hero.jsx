@@ -8,6 +8,7 @@ import { ScrollParallax } from "react-just-parallax";
 import { useRef } from "react";
 import Generating from './Generating';
 import Notification from './Notification';
+import CompanyLogo from './CompanyLogo';
 const Hero = () => {
     const parallaxRef = useRef(null);
     return (
@@ -63,7 +64,7 @@ const Hero = () => {
                             <ScrollParallax isAbsolutelyPositioned>
                                 <Notification
                                     className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
-                                    title="Code generation"
+                                    title="Doc generation"
                                 />
                             </ScrollParallax>
 
@@ -84,7 +85,10 @@ const Hero = () => {
                         alt="hero"
                     />
                 </div>
+
+                <CompanyLogo className="relative hidden z-10 mt-20 lg:block" />
             </div>
+
 
 
             <BottomLine />
