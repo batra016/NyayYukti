@@ -40,17 +40,7 @@ import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
 import service3 from "./services/service-3.png";
 
-import lines from "./pricing/lines.svg";
-import stars from "./pricing/stars.svg";
 
-import coins from "./roadmap/coins.png";
-import done from "./roadmap/done.svg";
-import hero from "./roadmap/hero.png";
-import roadmap1 from "./roadmap/image-1.png";
-import roadmap2 from "./roadmap/image-2.png";
-import roadmap3 from "./roadmap/image-3.png";
-import roadmap4 from "./roadmap/image-4.png";
-import undone from "./roadmap/undone.svg";
 
 import notification1 from "./notification/image-1.png";
 import notification2 from "./notification/image-2.png";
@@ -69,11 +59,6 @@ import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
 import benefitImage2 from "./benefits/image-2.png";
 
-import discordBlack from "./socials/discord.svg";
-import facebook from "./socials/facebook.svg";
-import instagram from "./socials/instagram.svg";
-import telegram from "./socials/telegram.svg";
-import twitter from "./socials/twitter.svg";
 
 export {
   brainwave,
@@ -114,16 +99,6 @@ export {
   service1,
   service2,
   service3,
-  lines,
-  stars,
-  coins,
-  done,
-  hero,
-  roadmap1,
-  roadmap2,
-  roadmap3,
-  roadmap4,
-  undone,
   notification1,
   notification2,
   notification3,
@@ -139,9 +114,5 @@ export {
   benefitIcon3,
   benefitIcon4,
   benefitImage2,
-  discordBlack,
-  facebook,
-  instagram,
-  telegram,
-  twitter,
+
 };

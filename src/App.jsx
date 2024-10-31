@@ -6,6 +6,8 @@ import Header from './components/Header'
 import Services from './components/Services'
 
 import Hero from './components/Hero'
+import Footer from './components/Footer'
+
 
 function App() {
 
@@ -17,6 +19,7 @@ function App() {
         <Benefits />
         <Documents />
         <Services />
+        <Footer />
       </div>
       <ButtonGradient></ButtonGradient>
 
