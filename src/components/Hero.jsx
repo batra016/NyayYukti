@@ -35,7 +35,7 @@ const Hero = () => {
                 <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
                     Unlock the potential of AI for seamless legal document drafting. Elevate your productivity with our smart legal assistant, designed to simplify your legal needs.
                 </p>
-                <Button href="/features">
+                <Button href="/new-page">
                     Get Started
                 </Button>
             </div>
